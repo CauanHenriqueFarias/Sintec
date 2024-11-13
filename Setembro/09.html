@@ -1,0 +1,49 @@
+ 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrados no Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            position: relative; 
+        }
+        .quadrado {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        .quadrado-canto-esquerdo {
+            background-color: blue;
+            top: 0;
+            left: 0;
+        }
+        .quadrado-meio {
+            background-color: rgb(14, 190, 14); 
+            width: 150px; 
+            height: 150px; 
+            top: 10%; 
+            left: 50%;
+            transform: translate(-50%, -30%); 
+        }
+        .quadrado-canto-direito {
+            background-color: red;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado quadrado-canto-esquerdo"></div>
+    <div class="quadrado quadrado-meio"></div>
+    <div class="quadrado quadrado-canto-direito"></div>
+</body>
+</html>

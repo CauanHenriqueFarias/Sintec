@@ -1,0 +1,80 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="base_define" id="d^:gXy}*JzVd(:V=icbJ" x="358" y="67">
+    <statement name="DO">
+      <block type="controls_if" id="q_|i`!_GxQXmq/Qwzw)w">
+        <value name="IF0">
+          <block type="digital_readbiR" id="-gK3q!tJc!+_Z)]Wq6R+">
+            <field name="NUMBER">1</field>
+            <value name="PIN">
+              <shadow type="math_number" id=";YSDr+e-`2iadZl?]N~%">
+                <field name="NUM">3</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="inout_digital_writeD" id="aUi6tZ4LaWM~{Fq[^26]">
+            <field name="OUTPUT_VALUE">1</field>
+            <field name="STAT">1</field>
+            <value name="PIN">
+              <shadow type="math_number" id=":wXG6zLF6nzi|93axnAq">
+                <field name="NUM">18</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_if" id="(NR:^ho(hL$@/QDyOhL:">
+            <value name="IF0">
+              <block type="digital_readbiR" id="HbyG+vI8aot1,tNR.-wZ">
+                <field name="NUMBER">1</field>
+                <value name="PIN">
+                  <shadow type="math_number" id="Kz~Sgle~+1x`,CS*IIpk">
+                    <field name="NUM">8</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="inout_digital_writeD" id="Iy`oqp9~r|1RP{7UlizJ">
+                <field name="OUTPUT_VALUE">1</field>
+                <field name="STAT">1</field>
+                <value name="PIN">
+                  <shadow type="math_number" id="x.{@%p(e6Vb4|H4ew#Le">
+                    <field name="NUM">22</field>
+                  </shadow>
+                </value>
+              </block>
+            </statement>
+            <next>
+              <block type="controls_if" id="zF[Q%zDY6{U*[7Ey27Rf">
+                <value name="IF0">
+                  <block type="digital_readbiR" id="VI6-La*KgfmDdft_]Tu)">
+                    <field name="NUMBER">1</field>
+                    <value name="PIN">
+                      <shadow type="math_number" id="oBy/Tx/AEVAEqcZ-^dX|">
+                        <field name="NUM">13</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="inout_digital_writeD" id="Q6.c:(tryx.J;l=)926K">
+                    <field name="OUTPUT_VALUE">1</field>
+                    <field name="STAT">1</field>
+                    <value name="PIN">
+                      <shadow type="math_number" id="1~E-},;%g;_6y?nE$%LD">
+                        <field name="NUM">25</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
